@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Counter from './01-use-state/Counter';
+import DadJoke from './02-use-effect/DadJoke';
+import Button from './03-use-context/Button';
+import { ThemeProvider } from './03-use-context/ThemeContext';
+import Message from './04-use-reducer/Message';
+import ColorPicker from './05-use-ref/ColorPicker';
+import WindowDimensions from './06-custom-hooks/06-01-useWindowDimensions/WindowDimensions';
+import ChuckNorris from './06-custom-hooks/06-02-useFetch/ChuckNorris';
+import Form from './06-custom-hooks/06-03-useForm/Form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <h1>Fun with React Hooks</h1>
+      <Counter startingValue={100} />
+      <DadJoke />
+      <Button>Click me!</Button>
+      <Message>I'm a message!</Message>
+      <ColorPicker />
+      <WindowDimensions />
+      <ChuckNorris />
+      <Form />
+    </ThemeProvider>
   );
 }
 
