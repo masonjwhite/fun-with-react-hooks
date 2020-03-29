@@ -10,10 +10,10 @@ This project was bootstrapped with create-react-app. It contains several example
 
 ## Starting the project
 
-Clone the repository
-Navigate to the cloned project and run `npm install`
-To start the project, run `npm start` to run the app in development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone the repository
+2. Navigate to the cloned project and run `npm install`
+3. To start the project, run `npm start` to run the app in development mode.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Included Examples
 
