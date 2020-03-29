@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - 02-use-effect: `useEffect` hook example to fetch some data from an API on mount.
 - 03-use-context: `useContext` hook exampe to fetch theme values by consuming a theme context.
 - 04-use-reducer: `useReduer` hook example to dynamically change state based on the action passed to it.
-- 05-use-ref: `useRef` hook example to `console.log` the value of a `select` dom node on change.
+- 05-use-ref: `useRef` hook example to `console.log` the value of a `select` DOM node on change.
 - 06-custom-hooks:
   - 06-01-useWindowDimensions: A custom hook that updates values when the browser window is resized
   - 06-02-useFetch: A custom hook that abstracts the `fetch` API from components
