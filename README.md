@@ -1,68 +1,32 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Motivation
 
-In the project directory, you can run:
+This repository is a part of my "fun with" series. Each and every day I challenge myself to learn something new. Once I feel like I understand a subject well enough to move onto the next one, I build a small proof of concept or example so that I can reference it in the future.
 
-### `npm start`
+## Structure
 
-Runs the app in the development mode.<br />
+This project was bootstrapped with create-react-app. It contains several examples of React hooks along with a component that utilizes the hook. Currently all of the component examples are being used in the top-level App component.
+
+## Starting the project
+
+Clone the repository
+Navigate to the cloned project and run `npm install`
+To start the project, run `npm start` to run the app in development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Included Examples
 
-### `npm test`
+- 01-use-state: A basic useState hook example.
+- 02-use-effect: useEffect hook example to fetch some data from an API on mount.
+- 03-use-context: useContext hook exampe to fetch theme values by consuming a theme context.
+- 04-use-reducer: useReduer hook example to dynamically change state based on the action passed to it.
+- 05-use-ref: useRef hook example to `console.log` the value of a `select` dom node on change.
+- 06-custom-hooks:
+  - 06-01-useWindowDimensions: A custom hook that updates values when the browser window is resized
+  - 06-02-useFetch: A custom hook that abstracts the `fetch API` from components
+  - 06-03-useForm: A custom hook that abstracts repetitive form logic from components
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## TODO
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- No further development is planned at this time. However, as I find use cases for other hooks (e.g. `useCalback`, `useMemo`) I will update this repository approriately.
