@@ -6,7 +6,7 @@ This repository is a part of my "fun with" series. Each and every day I challeng
 
 ## Structure
 
-This project was bootstrapped with create-react-app. It contains several examples of React hooks along with a component that utilizes the hook. Currently all of the component examples are being used in the top-level App component.
+This project was bootstrapped with create-react-app. It contains several examples of React hooks along with a component that utilizes each hook. Currently all of the component examples are being used in the top-level `App.js` component.
 
 ## Starting the project
 
